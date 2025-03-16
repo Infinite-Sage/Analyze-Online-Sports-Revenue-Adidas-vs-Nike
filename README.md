@@ -187,4 +187,4 @@ This project provided real-world insights into pricing, customer behavior, and m
 The next step involves building a machine learning model for dynamic pricing recommendations and real-time revenue forecasting.
 
 📢 Interested in the full dataset and code?
-Check out the full project on GitHub: 
+Check out the full project on GitHub: https://github.com/Infinite-Sage/Analyze-Online-Sports-Revenue-Adidas-vs-Nike/blob/main/notebook.ipynb
