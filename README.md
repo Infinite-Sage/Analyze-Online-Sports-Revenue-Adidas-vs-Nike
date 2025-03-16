@@ -135,9 +135,9 @@ merged_df = merged_df.merge(brands, on="product_id", how="inner")
 # Drop missing values
 merged_df.dropna(inplace=True)
 ```
-```
-Analyzing Sales Performance
 
+### **Analyzing Sales Performance**
+```
 # Categorize products into price quartiles
 merged_df["price_label"] = pd.qcut(
     merged_df["listing_price"], q=4, labels=["Budget", "Average", "Expensive", "Elite"]
@@ -151,9 +151,9 @@ adidas_vs_nike = merged_df.groupby(["brand", "price_label"], as_index=False).agg
 
 print(adidas_vs_nike)
 ```
-```
-Product Description Length vs. Ratings
 
+### **Product Description Length vs. Ratings**
+```
 # Compute description length
 merged_df["description_length"] = merged_df["description"].str.len()
 
